@@ -7,9 +7,31 @@
     <!-- agregar metas -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
 </head>
 <body>
-    <h1>css</h1>
+    <main class="bg-dark text-light cronometro">
+        <h4 class="d-flex justify-content-center">cronometro</h4>
+        <div class="d-flex justify-content-center">
+            <p id="idMinutos">00</p>
+            <p>:</p>
+            <p id="idSegundos">00</p>
+            <p>:</p>
+            <p id="idCentesimas">00</p>
+        </div>
+        <div class="d-flex justify-content-center">
+            <button onclick="arranque()">play</button>
+            <button onclick="pausa()">pause</button>
+            <button onclick="stop()">Stop</button>
+        </div>
+        <div>
+            <h6 class="my-4 d-flex justify-content-center">By: Javier Salas</h6>
+        </div>
+
+    </main>
     
 
     <!-- scripts -->

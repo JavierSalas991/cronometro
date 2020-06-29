@@ -1,0 +1,14 @@
+.cronometro{
+    padding-top: 50px;
+    border: 3px solid #09294B;
+    font-size: 20px;
+    border-radius: 150px;
+    height: 300px;
+    width: 300px;
+}
+
+button{
+    border-radius: 25px;
+    border: 3px solid #09294B;
+    background-color: blanchedalmond;
+}
